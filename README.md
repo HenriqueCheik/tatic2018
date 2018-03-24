@@ -25,4 +25,4 @@ Para utilizar os programas, deve-se, em um terminal, utilizar os seguintes coman
   - Exemplo: ./armazenador sample.txt
 - buscador: **./buscador data_inicio data_fim (opcionalmente colocar os identificadores hexadecimais)**
   - Exemplo: ./buscador 20170108162233255 20170217173500896
-  - Exemplo com tags: ./ buscador 20170101000104313 20170107005603481 BF7D4A40 BF939C5C BFEA4CAB
+  - Exemplo com tags: ./buscador 20170101000104313 20170107005603481 BF7D4A40 BF939C5C BFEA4CAB
