@@ -11,7 +11,9 @@ O programa buscador recebe os dados avaliados pelo programa armazenador e, atrav
 
 Os programas foram desenvolvidos na linguagem C utilizando o sistema operacional Linux Ubuntu 16.04 que já possui um compilador C nativo. Caso se deseje compilar os programas na plataforma Windows será necessário a instalação de um compilador para o sistema operacional, como por exemplo o MinGW, disponível em www.mingw.org
 
-Para compilar os programas deve-se utilizar os comandos em um terminal aberto na pasta em que se encontram os arquivos. Foi desenvolvido um Makefile para facilitar o procedimento de compilação, caso se deseje maior praticidade.
+Um tutorial para a instalação do MinGW pode ser encontrado em: https://www.youtube.com/watch?v=FzPBZjkoEmA
+
+Para compilar os programas deve-se utilizar os comandos em um terminal aberto na pasta em que se encontram os arquivos. Foi desenvolvido um Makefile (utilizável somente no ambiente Linux) para facilitar o procedimento de compilação, caso se deseje maior praticidade.
 
 - Para compilar os programas utilizando o Makefile: digite o comando **make** no terminal. 
 - Para compilar os programas individualmente:
@@ -23,6 +25,9 @@ Para utilizar os programas, deve-se, em um terminal, utilizar os seguintes coman
 
 - armazenador: **./armazenador nome_do_arquivo_com_dados**
   - Exemplo: ./armazenador sample.txt
+  - Exemplo (Windows): armazenador.exe sample.txt
 - buscador: **./buscador data_inicio data_fim (opcionalmente colocar os identificadores hexadecimais)**
   - Exemplo: ./buscador 20170108162233255 20170217173500896
   - Exemplo com tags: ./buscador 20170101000104313 20170107005603481 BF7D4A40 BF939C5C BFEA4CAB
+  - Exemplo (Windows): buscador.exe 20170108162233255 20170217173500896
+  - Exemplo com tags (Windows): buscador.exe 20170101000104313 20170107005603481 BF7D4A40 BF939C5C BFEA4CAB
